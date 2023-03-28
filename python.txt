@@ -13,6 +13,7 @@ def shop(sum):
      dict={'jeans':5000,'hoodies':1000,'tie':400,'trouser':900,'tuxedo':10000,'bow':300,'blazer':6000,'windcheater':3000}
      print(list(dict.keys()))
      True
+# comment
 
 #       inventory
      while True:
