@@ -56,8 +56,8 @@ if opinion=="yes":
 
 #          mode of payment 
 else:
-    print("ThankYou for coming to our shop. Please handover money.")
-mess=input("press 1 for cash and 2 for card :")
+    print("ThankYou for coming to our shop. Please cash your order.")
+mess=input("Press 1 for cash and 2 for card :")
 bill=sum
 
 #          cash
@@ -66,7 +66,7 @@ if mess=='1':
     print("your total bill is ",sum)
     cash=int(input("your given amount :"))   
     left_cash=cash-sum
-    print("cash to be return :",left_cash)
+    print("Cash to be return :",left_cash)
     print("")
     print(myorders)
     print("your total bill is ",sum)
